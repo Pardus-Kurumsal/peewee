@@ -1,0 +1,18 @@
+peewee (2.8.0-1pardus1) onyedi; urgency=medium
+
+  * Update control file and remove old build config file
+  * Update rules
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 24 Aug 2017 14:22:12 +0300
+
+peewee (2.8.0-1) xenial; urgency=medium
+
+  * update to 2.8.0. 
+
+ -- lilongyu <leaeasy@gmail.com>  Thu, 12 May 2016 10:51:57 +0800
+
+peewee (2.4.4-1.1) xenial; urgency=medium
+
+  * Initial release.
+
+ -- lilongyu <leaeasy@gmail.com>  Thu, 12 May 2016 10:22:24 +0800

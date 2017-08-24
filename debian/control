@@ -1,0 +1,22 @@
+Source: peewee
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9), dh-python,
+               python, python-setuptools
+Standards-Version: 3.9.8
+Homepage: https://github.com/coleifer/peewee
+
+Package: python-peewee
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: A small, expressive orm
+ Peewee is a simple and small ORM. It has few (but expressive)
+ concepts, making it easy to learn and intuitive to use.
+ .
+ * A small, expressive ORM
+ * Written in python with support for versions 2.6+ and 3.2+.
+ * built-in support for sqlite, mysql and postgresql
+ * tons of extensions available in the playhouse (postgres
+   hstore/json/arrays, sqlite full-text-search, schema migrations,
+   and much more).
